@@ -31,18 +31,16 @@ django = ">=3.2"
 python = ">=3.8"
 
 [tool.poetry.dev-dependencies]
-black = "*"
 mysqlclient = "*"
 oracledb = "*"
 psycopg2-binary = "*"
 ruff = "*"
 toml = "*"
 
-[tool.ruff]
+[tool.ruff.lint]
 select = [
     "E",  # pycodestyle
     "F",  # Pyflakes
     "W",  # pycodestyle
     "I",  # isort
 ]
-src = ["src"]

@@ -1,6 +1,6 @@
 style:
-	black src tests
-	ruff --fix src tests
+	ruff format src tests
+	ruff check --fix src tests
 
 test: test_postgresql test_mysql test_oracle test_sqlite
 
