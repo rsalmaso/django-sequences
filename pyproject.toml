@@ -14,11 +14,9 @@ classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Web Environment",
     "Framework :: Django",
-    "Framework :: Django :: 3.2",
-    "Framework :: Django :: 4.0",
-    "Framework :: Django :: 4.1",
     "Framework :: Django :: 4.2",
     "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
 ]
@@ -27,8 +25,8 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-django = ">=3.2"
-python = ">=3.8"
+django = ">=4.2"
+python = ">=3.9"
 
 [tool.poetry.dev-dependencies]
 mysqlclient = "*"
